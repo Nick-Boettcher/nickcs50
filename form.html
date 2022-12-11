@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Notify</title>
+        <link rel="icon" href="/static/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>New Contact</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="/form"><i class="fa fa-fw fa-user"></i> New Contact</a>
+            <a href="/contacts"><i class="fa fa-fw fa-user"></i> Contacts</a>
+            <a href="/contact-us"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+            <a href="/register"><i class="fa-light fa-user-plus"></i> Sign Up</a>
+            <a href="/login"><i class="fa fa-sign-in"></i> Login</a>
+            <a href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+        </div>
+            <div class="header">
+                <h1>FORM</h1>
+                <p>The world in one simple click</p>
+            </div>
+        <form action="/form" method="post">
+            <div class="mb-3">
+                <strong>What is your friend's Username?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text" required>
+            </div>
+            <div class="mb-3">
+                <strong>What is your Name?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="mb-3">
+                <strong>What is your Phone Number?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="number" name="number" placeholder="Phone Number" type="text" required>
+            </div>
+            <div class="mb-3">
+                <strong>What is your Birthday?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="birthday" name="birthday" placeholder="month/day" type="date" required>
+            </div>
+            <div class="mb-3">
+                <strong>What is your Email?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="email" name="email" placeholder="Email" type="text" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Address?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="address" name="address" placeholder="Address" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Occupation?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="profession" name="profession" placeholder="Occupation" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Favorite Color?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="color" name="color" placeholder="Favorite Color" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Favorite Food?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="food" name="food" placeholder="Favorite Food" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Favorite Movie?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="movie" name="movie" placeholder="Favorite Movie" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Favorite Book?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="book" name="book" placeholder="Favorite Book" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>What is your Favorite Hobby?</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="hobby" name="hobby" placeholder="Favorite Hobby" type="text">
+            </div>
+            <div class="mb-3">
+                <strong>Extra Information</strong><br>
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="notes" name="notes" placeholder="Notes" type="text">
+            </div>
+            <input type="Submit" class="signup-btn">
+        </form>
+    </body>

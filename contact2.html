@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Notify</title>
+        <link rel="icon" href="/static/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form to Email Using JavaScript</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+      <!--Creates a navigation bar at the top of all of your pages-->
+      <div class="topnav">
+        <a href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="/form"><i class="fa fa-fw fa-user"></i> New Contact</a>
+        <a href="/contact-us"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+        <a href="/register"><i class="fa-light fa-user-plus"></i></i> Sign Up</a>
+        <a href="/login"><i class="fa fa-sign-in"></i> Login</a>
+        <a href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+      </div>
+      <div class="header">
+        <h1>CONTACT US</h1>
+        <p>The world in one simple click</p>
+      </div>
+
+      <div class="container">
+          <form class="contact-form" action="https://formsubmit.co/78ed576f3086f8ef6099258364dc459b" method="POST">
+            <h1>Get In Touch</h1>
+             <form action="">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" class="input-box" name="First&nbsp;Name" id="firstName" placeholder="First Name" required>
+              <input type="text" class="input-box" name="Last&nbsp;Name" id="lastName" placeholder="Last Name" required>
+              <input type="email" class="input-box" name="Email" id="emailInfo" placeholder="Email Address" pattern= "^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required>
+              <input type="text" class="input-box" name="Phone" id="phoneNumber" placeholder="Phone Number" required>
+              <textarea class="input-box" id="comments" name="How&nbsp;can&nbsp;we&nbsp;help&nbsp;you?" placeholder="How can we help you?" rows="3" required></textarea>
+            <div class="col-md-12">
+              <input type="submit" name="btnSignup" value="Submit" id="btnSignup" class="signup-btn"/>
+            </div>
+        </form>
+    </body>
+</html>

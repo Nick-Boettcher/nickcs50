@@ -1,0 +1,192 @@
+/* Style the header by making words white and changing background color */
+.header
+{
+    padding: 10px;
+    text-align: center;
+    background: #9DB69A;
+    color: white;
+    font-size: 32px;
+}
+
+body {background-color: #FDF8F5;}
+
+.topnav
+{
+  background-color: #bebebe;
+  overflow: hidden;
+}
+
+
+/* Style the navigation bar */
+.topnav a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active
+{
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.signup-btn
+{
+  background-color: #dbe8d7;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0;
+  width: 40%;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 2px 0px 0px #5f967c;
+  align-items: center;
+}
+
+.signup-btn:hover
+{
+  background-color: #dbe8d7;
+}
+
+.signup-btn:active
+{
+  transform: translateY(7px);
+  box-shadow: 0px 3px 0px 0px #507963;
+}
+
+.input-box
+{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+form h3
+{
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sign-up-form
+{
+  width: 350px;
+  height: 400;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+
+.login-form
+{
+  width: 350px;
+  height: 400;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+
+.contact-form
+{
+  width: 350px;
+  height: 400;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+
+table
+{
+    width: 100%;
+    line-height: 2.5;
+}
+
+.mb-4
+{
+  width: 350px;
+  height: 400;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+
+.btn-primary
+{
+  background-color: #dbe8d7;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0;
+  width: 40%;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 2px 0px 0px #5f967c;
+  align-items: center;
+}
+
+.btn-primary:hover
+{
+  background-color: #dbe8d7;
+}
+
+.btn-primary:active
+{
+  transform: translateY(7px);
+  box-shadow: 0px 3px 0px 0px #507963;
+}
+
+/* The alert message in red */
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hovering mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
